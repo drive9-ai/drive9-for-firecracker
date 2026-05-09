@@ -1,0 +1,23 @@
+# Build outputs
+outputs/
+!outputs/.gitkeep
+outputs_backup/
+
+# Environment variables (may contain API keys)
+.env
+.env.*
+
+# Temporary files
+*.tmp
+*.log
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
